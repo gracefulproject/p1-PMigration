@@ -1,0 +1,2 @@
+#!/bin/bash
+./test_supv.pl spin5 0 0 1 7

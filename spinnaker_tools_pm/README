@@ -1,0 +1,14 @@
+Since the process migration agent and app requires different spinnaker.h
+(and its derivative on sark and spin1_api), we re-compile spinnaker_tools
+and put them here.
+
+--------------------------------------------------------------------
+Update 6 Mei jam 17:30
+
+Aku kompile dengan standard libsark.a dan libspin1_api.a kok bisa ya 
+untuk pmagent dan pmapp?
+
+Sepertinya kuncinya hanya di linker script aja, TANPA HARUS COMPILE ULANG
+sark dan spin1_api
+
+
